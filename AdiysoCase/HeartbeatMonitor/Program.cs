@@ -81,17 +81,36 @@ static async Task SendEmailAsync(EmailConfig emailConfig, string subject, string
         {
             Port = emailConfig.Port,
             Credentials = new NetworkCredential(emailConfig.Username, emailConfig.Password),
-            EnableSsl = true,
+            EnableSsl = emailConfig.EnableSsl
         };
 
         var mail = new MailMessage(emailConfig.From, emailConfig.To, subject, body);
         await smtpClient.SendMailAsync(mail);
+        Console.WriteLine("E-posta başarıyla gönderildi.");
+    }
+    catch (SmtpException smtpEx)
+    {
+        Console.WriteLine("SMTP HATASI:");
+        Console.WriteLine($"StatusCode: {smtpEx.StatusCode}");
+        Console.WriteLine($"Message: {smtpEx.Message}");
+        if (smtpEx.InnerException != null)
+        {
+            Console.WriteLine($"InnerException: {smtpEx.InnerException.Message}");
+        }
+        Console.WriteLine($"StackTrace: {smtpEx.StackTrace}");
     }
     catch (Exception ex)
     {
-        Console.WriteLine($"E-posta gönderilemedi: {ex.Message}");
+        Console.WriteLine("GENEL HATA:");
+        Console.WriteLine($"Message: {ex.Message}");
+        if (ex.InnerException != null)
+        {
+            Console.WriteLine($"InnerException: {ex.InnerException.Message}");
+        }
+        Console.WriteLine($"StackTrace: {ex.StackTrace}");
     }
 }
+
 
 }
 
@@ -105,6 +124,7 @@ class EmailConfig
 {
     public string? SmtpServer { get; set; }
     public int Port { get; set; }
+    public bool EnableSsl {get; set;}
     public string? From { get; set; }
     public string? To { get; set; }
     public string? Username { get; set; }

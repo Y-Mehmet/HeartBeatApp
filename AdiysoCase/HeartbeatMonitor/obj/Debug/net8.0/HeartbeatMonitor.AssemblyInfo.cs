@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeartbeatMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf62d5944331d8f064820e112d609f972577aa0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73127b27c98a71b8f3179813d3abbaf35dd2dad0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeartbeatMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeartbeatMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
