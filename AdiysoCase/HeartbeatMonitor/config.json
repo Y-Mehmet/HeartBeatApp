@@ -1,16 +1,30 @@
 {
-  "Urls": [
-    "http://localhost:5000/health",
-    "https://example.com"
-  ],
-  "IntervalSeconds": 10,
-  "Email": {
-    "SmtpServer": "smtp.gmail.com",
-    "Port": 587,
-    "EnableSsl": true,
-    "From": "memetyalcin517@gmail.com",
-    "To": "mehmetyalcin0040@gmail.com",
-    "Username": "memetyalcin517@gmail.com",
-    "Password": "madx vxpl zkaw hoxu"
-  }
+  "UrlMonitors": [
+    {
+      "Url": "http://localhost:5000/health",
+      "IntervalSeconds": 10,
+      "Email": {
+        "SmtpServer": "smtp.gmail.com",
+        "Port": 587,
+        "EnableSsl": true,
+        "From": "memetyalcin517@gmail.com",
+        "To": "mehmetyalcin0040@gmail.com",
+        "Username": "memetyalcin517@gmail.com",
+        "Password": "madx vxpl zkaw hoxu"
+      }
+    },
+    {
+      "Url": "https://google.com",
+      "IntervalSeconds": 15,
+      "Email": {
+        "SmtpServer": "smtp.gmail.com",
+        "Port": 587,
+        "EnableSsl": true,
+        "From": "b@gmail.com",
+        "To": "admin@example.com",
+        "Username": "b@gmail.com",
+        "Password": "uygulama_sifresi2"
+      }
+    }
+  ]
 }
