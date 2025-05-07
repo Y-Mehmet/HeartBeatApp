@@ -1,0 +1,15 @@
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.AssemblyInfoInputs.cache
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.AssemblyInfo.cs
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.csproj.CoreCompileInputs.cache
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.sourcelink.json
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\bin\Debug\net8.0\HeartbeatMonitor.exe
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\bin\Debug\net8.0\HeartbeatMonitor.deps.json
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\bin\Debug\net8.0\HeartbeatMonitor.runtimeconfig.json
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\bin\Debug\net8.0\HeartbeatMonitor.dll
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\bin\Debug\net8.0\HeartbeatMonitor.pdb
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.dll
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\refint\HeartbeatMonitor.dll
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.pdb
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\HeartbeatMonitor.genruntimeconfig.cache
+C:\Github\HeartBeatApp\AdiysoCase\HeartbeatMonitor\obj\Debug\net8.0\ref\HeartbeatMonitor.dll

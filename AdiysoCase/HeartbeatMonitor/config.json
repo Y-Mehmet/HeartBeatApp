@@ -1,0 +1,16 @@
+{
+  "Urls": [
+    "http://localhost:5000/health",
+    "https://example.com"
+  ],
+  "IntervalSeconds": 10,
+  "Email": {
+    "SmtpServer": "smtp.gmail.com",
+    "Port": 587,
+    "EnableSsl": true,
+    "From": "memetyalcin517@gmail.com",
+    "To": "mehmetyalcin0040@gmail.com",
+    "Username": "memetyalcin517@gmail.com",
+    "Password": "madx vxpl zkaw hoxu"
+  }
+}
